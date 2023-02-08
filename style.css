@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    border: 1px solid white;
+    padding: 1px;
+    margin: 1px;
+    font-weight: bold;
+    color: black;
+}
+
+header
+{
+    min-height: 1vh;
+}
+
+h2 {
+    background-color: yellow;
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid yellow;
+    border-left: 500px solid yellow;
+    border-right: 500px solid yellow;
+    padding: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90%;
+    text-align: center;
+    color: red;
+    display: inline;
+}
+
+p{
+justify-content: center;
+}
+
+section{
+    border: 2px solid white;
+    display: table;
+    height: 400px;
+    margin: 0;
+    width: 90%;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    margin: 1px;
+    padding: 15px;
+}
+
+article {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    margin: 10px;
+}
+
+article.p {
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    margin: 10px;
+}
+
+#uno {
+    border: 1px solid white;
+    display: block;
+    border: 1px solid white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 100px;
+    margin-right: 1px;
+    font-size: 20px;
+    width: 55%;
+}
+
+#dos {
+    border: 1px solid white;
+    display: table-cell;
+    font-size: 20px;
+    width: 30%;
+}
+
+#tres {
+    border: 1px solid white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    width: 70%;
+}
+
+.cuatro {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: rgb(8, 176, 120);
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding: 8px;
+}
+
+.cinco{
+    display: flex;
+    justify-content: space-around
+}
+
+.circulo{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+h3{
+    margin: 5px;
+    padding: 10px;
+}
+
+.tabla{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+table{
+    padding: 2px;
+    font-size: 20px;
+}
+
+th{
+    background-color: aquamarine;
+    padding: 2px;
+}
+
+tr{
+    background-color: rgb(194, 252, 232);
+    padding: 2px;
+}
+
+td{
+    background-color: rgb(194, 252, 232);
+    padding: 2px;
+}
+
+ol{
+    margin: 40px;
+    list-style-type: lower-latin;
+}
+
+ul{
+    margin: 80px;
+}
+
+.container-maps{
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.maps{
+    padding: 5px;
+}
+
+form{
+    margin: 20px;
+    font-size: 20px;
+}
+
+fieldset{
+    padding: 20px;
+    border: 1px solid white;
+    background-color:beige;
+}
+
+.seis{
+    padding: 20px;
+    background-color:beige;
+}
+
+.siete{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ocho{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+}
